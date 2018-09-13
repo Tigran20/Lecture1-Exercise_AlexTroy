@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AAM_AlexTroy_1</string>
+    <string name="type_your_message_here">Введит свое сообщение...</string>
+    <string name="preview">Превью</string>
+    <string name="email">Почта</string>
+    <string name="no_email_app_found">Приложение почты не найдено</string>
+</resources>
