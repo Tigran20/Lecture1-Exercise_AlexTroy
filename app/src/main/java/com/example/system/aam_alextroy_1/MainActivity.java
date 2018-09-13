@@ -9,7 +9,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String MESSAGE = "message";
+    public static final String EXTRA_MESSAGE = "message";
     private EditText message;
     private Button previewBtn;
 
@@ -19,19 +19,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         init();
+        clickList();
     }
 
     private void init() {
         message = findViewById(R.id.et_message);
         previewBtn = findViewById(R.id.btn_push);
+    }
 
+    private void clickList() {
         previewBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String messageData = message.getText().toString();
 
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                intent.putExtra(MESSAGE, messageData);
+                intent.putExtra(EXTRA_MESSAGE, messageData);
                 startActivity(intent);
             }
         });
