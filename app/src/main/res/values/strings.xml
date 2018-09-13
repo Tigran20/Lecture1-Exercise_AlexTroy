@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AAM_AlexTroy_1</string>
+    <string name="type_your_message_here">Type your message here...</string>
+    <string name="preview">Preview</string>
+    <string name="email">EMAIL</string>
+    <string name="no_email_app_found">No Email app found</string>
+</resources>

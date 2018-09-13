@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="et_height">100dp</dimen>
+    <dimen name="second_act_btn">8dp</dimen>
+    <dimen name="second_act_text_size">30sp</dimen>
+</resources>
